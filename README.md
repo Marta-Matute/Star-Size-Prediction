@@ -2,7 +2,7 @@
 ### Marta Matute
 ### DATASET: [Star Dataset: Stellar Classification](https://www.kaggle.com/vinesmsuic/star-categorization-giants-and-dwarfs?select=Star39552_balanced.csv)
 
-## Resum
+## Summary
 The dataset with which we'll be working uses data extracted from [Vizier](https://vizier.u-strasbg.fr/viz-bin/VizieR-3?-source=I%2F239%2Fhip_main&-out.max=50&-out.form=HTML+Table&-out.add=_RAJ%2C_DEJ&-sort=_r&-oc.form=sexa) catalogue access tool, as well as the The Hipparcos and Tycho Catalogues.
 
 In the Kaggle webpage we find 4 different csv files. Two of them are already preprocessed data. Since one of the goals for this project is to learn how to properly preprocess a dataset, we will be working with the non-preprocessed data. Thus we will be using the file *Star99999_raw.csv*. 
