@@ -1,0 +1,8 @@
+IPython             7.22.0
+jupyter_client      6.1.12
+jupyter_core        4.7.1
+jupyterlab          3.0.14
+notebook            6.3.0
+-----
+Python 3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)]
+Windows-10-10.0.19041-SP0
