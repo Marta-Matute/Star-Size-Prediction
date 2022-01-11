@@ -79,15 +79,15 @@ y_pred_rf_test = hypertuned_rf.predict(X_test)
 y_pred_ensemble_train = voting_clf_.predict(X_test)
 y_pred_ensemble_test = voting_clf_.predict(X_test)
 
-train_predictions = [y_pred_log_reg_train,
-                     y_pred_xgboost_train,
-                     y_pred_rf_train,
-                     y_pred_ensemble_train]
+train_predictions = {'Logistic Regression' : y_pred_log_reg_train,
+                     'XGBoost' : y_pred_xgboost_train,
+                     'Random Forest' : y_pred_rf_train,
+                     'Ensemble' : y_pred_ensemble_train}
 
-test_predictions = [y_pred_log_reg_test,
-                    y_pred_xgboost_test,
-                    y_pred_rf_test,
-                    y_pred_ensemble_test]
+test_predictions = {'Logistic Regression' : y_pred_log_reg_test,
+                     'XGBoost' : y_pred_xgboost_test,
+                     'Random Forest' : y_pred_rf_test,
+                     'Ensemble' : y_pred_ensemble_test}
 
 # saving train and test predictions
 with open('predictions/train_predictions.pickle', 'wb') as file:
